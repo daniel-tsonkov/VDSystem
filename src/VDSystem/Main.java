@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         String data = null;
-        FileReader reader = new FileReader("C:\\Users\\dan\\IdeaProjects\\VDSystem1\\src\\VDSystem\\set.txt");
+        FileReader reader = new FileReader("set.txt");
         Scanner myReader = new Scanner(reader);
         while (myReader.hasNextLine()) {
             data = myReader.nextLine();
